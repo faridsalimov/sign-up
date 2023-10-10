@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="container">
+            <section class="sign-up">
+                <h1>Sign Up</h1>
+                <form action="#">
+                    <p>Name</p>
+                    <input id="name" type="text" placeholder="enter your name">
+                    <p>Email</p>
+                    <input id="email" type="text" placeholder="example@mail.com">
+                    <p>Password</p>
+                    <input id="password" type="password" placeholder="at least 8 characters">
+
+                    <section class="password-strength" id="weak"></section>
+                    <section class="password-strength" id="fair"></section>
+                    <section class="password-strength" id="good"></section>
+                    <section class="password-strength" id="strong"></section>
+
+                    <section id="agreement">
+                        <input type="checkbox" id="agreement">
+                        <label for="agreement"> I agree with Terms and Privacy</label>
+                    </section>
+
+                    <input id="sign-up-button" type="button" class="button" value="Sign up">
+                </form>
+                <section id="footer">
+                    <p>Already have an account?</p>
+                    <p id="send">Log in</p>
+                </section>
+            </section>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
